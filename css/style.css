@@ -55,3 +55,41 @@
 #aboutDarina, #skillsDarina, #educationDarina, #projectsDarina, #aboutDima, #skillsDima, #educationDima, #projectsDima, #aboutIgor, #skillsIgor, #educationIgor, #projectsIgor {
 	padding-top: 100px;
 }
+
+@media screen and (max-width: 960px) {
+	.info > img {
+		width: 300px;
+	}
+	.about > h1 {
+		font-size: 1.5rem;
+	}
+	.info > div > p {
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.info {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.info > div {
+		width: 100%;
+	}
+	.info > div > p {
+		font-size: 1.2rem;
+	}
+	.info > img {
+		width: 200px;
+	}
+	.skills > table {
+		width: 90%;
+	}
+	.carousel-item > img {
+		height: 200px;
+	}
+	#certificate {
+		width: 200px;
+	}
+}
