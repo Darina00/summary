@@ -1,0 +1,57 @@
+* {
+	font-family: calibri;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 50px;
+}
+
+.info > img {
+	max-width: 500px;
+}
+
+.info > div {
+	width: 20%;
+}
+
+.info > div > p {
+	color: rgb(156, 155, 155);
+}
+
+.about > h1 {
+	color: rgb(8, 18, 48);
+}
+
+.skills, .education, .projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.education {
+	margin-top: 50px;
+}
+
+.skills > table {
+	width: 25%;
+	margin-top: 20px;
+}
+
+#certificate {
+	max-width: 500px;
+}
+
+.carousel-item > img {
+	height: 400px;
+}
+
+.card-wrapper:nth-child(odd) {
+	background-color: rgb(112, 112, 112);
+}
+
+#aboutDarina, #skillsDarina, #educationDarina, #projectsDarina, #aboutDima, #skillsDima, #educationDima, #projectsDima, #aboutIgor, #skillsIgor, #educationIgor, #projectsIgor {
+	padding-top: 100px;
+}
